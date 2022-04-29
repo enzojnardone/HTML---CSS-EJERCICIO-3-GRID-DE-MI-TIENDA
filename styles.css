@@ -14,6 +14,10 @@ header {
   margin: 30px;
 }
 
+.tittle-text {
+  text-align: center;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -25,7 +29,25 @@ nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+}
+
+.gender-selector {
+  text-transform: uppercase;
+  padding: 10px;
+  font-weight: bold;
+  gap: 5px;
+}
+
+.gender-buttom {
+  border-radius: 5px;
+  padding: 3px;
+  text-decoration: none;
+  color: #000;
+}
+
+.gender-buttom:hover {
+  background-color: black;
+  color: white;
 }
 
 .cSearchAndIcons {
@@ -34,15 +56,22 @@ nav ul {
   gap: 15px;
 }
 
-.gender-buttom {
-  text-decoration: none;
-  color: #000;
+.cSearchAndIcons img {
+  gap: 30px;
+  width: 30px;
+  height: 30px;
 }
 
-.icons img {
-  gap: 30px;
-  width: 50px;
-  height: 50px;
+.cSearchAndIcons input {
+  margin-left: 5px;
+}
+
+.filters ul {
+  gap: 10px;
+}
+
+.point {
+  cursor: pointer;
 }
 
 .ul-item-typology {

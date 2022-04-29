@@ -9,7 +9,6 @@
   </head>
   <body>
     <header>
-      <h1>Mi tienda</h1>
       <nav>
         <div class="gender-container">
           <ul class="gender-selector">
@@ -21,13 +20,25 @@
             </li>
           </ul>
         </div>
+        <div class="tittle-text">
+          <h1>Mi tienda</h1>
+          <p>Ropa > Todo > Básicos (24 artículos)</p>
+        </div>
         <div class="cSearchAndIcons">
-          <div>
-            <input type="search" id="site-search" name="q">
-          </div>
-          <div class="icons">          
-            <a href=""> <img src="./SVG/circle-user-solid.svg" alt="log in/create account"></a>
-            <a href=""> <img src="./SVG/bag-shopping-solid.svg" alt="Add to cart"></a>
+          <div class="icons">    
+            <a href="" id="site-search"><img src="./SVG/magnifying-glass-solid.svg" alt="Add to cart"></a>
+            <input type="search" id="site-search" name="search">      
+            <a href=""><img src="./SVG/circle-user-solid.svg" alt="log in/create account"></a>
+            <a href=""><img src="./SVG/bag-shopping-solid.svg" alt="Add to cart"></a>
+            <div>
+              <div class="filters">
+                <ul>
+                  <li>Vista <span class="point"> 2 </span><span class="point"> 4 </span></li>
+                  <li class="point">| Ordenar</li>
+                  <li class="point">| Filtros</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </nav>
