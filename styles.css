@@ -57,9 +57,8 @@ nav ul {
 }
 
 .cSearchAndIcons img {
-  gap: 30px;
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
 }
 
 .cSearchAndIcons input {
@@ -68,10 +67,8 @@ nav ul {
 
 .icons {
   padding-top: 20px;
-}
-
-.filters{
-  padding: 10px;
+  display: flex;
+  gap: 5px;
 }
 
 .filters ul {
@@ -108,4 +105,8 @@ nav ul {
 .p-container img {
   width: 100%;
   height: 100%;
+}
+
+.product-card {
+  cursor: pointer;
 }
