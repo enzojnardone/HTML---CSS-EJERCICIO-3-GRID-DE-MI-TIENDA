@@ -1,0 +1,27 @@
+body {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  color: #000;
+  font-family: Apercu, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica,
+    Arial, sans-serif;
+  font-weight: 400;
+}
+
+.p-container {
+  padding-right: 5%;
+}
+
+.p-container ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  gap: 20px;
+}
+
+.p-container img {
+  width: 100%;
+  height: 100%;
+}
