@@ -11,7 +11,7 @@ body {
 
 header {
   padding: 0;
-  margin: 30px;
+  margin: 25px;
 }
 
 .tittle-text {
@@ -64,6 +64,14 @@ nav ul {
 
 .cSearchAndIcons input {
   margin-left: 5px;
+}
+
+.icons {
+  padding-top: 20px;
+}
+
+.filters{
+  padding: 10px;
 }
 
 .filters ul {
