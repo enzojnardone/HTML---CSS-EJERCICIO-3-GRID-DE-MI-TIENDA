@@ -51,6 +51,16 @@ nav ul {
 }
 
 /* Prueba de nav flotante */
+.floatingNav {
+  opacity: 0;
+  transition: .3s;
+  /* color: #000; */
+}
+
+.floatingNav:hover {
+  opacity: 1;
+}
+
 .floatingNav ul {
   padding: 0;
   margin: 0;
