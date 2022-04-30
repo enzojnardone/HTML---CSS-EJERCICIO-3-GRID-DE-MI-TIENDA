@@ -112,6 +112,8 @@ nav ul {
   display: flex;
   gap: 20px;
   list-style: none;
+  justify-content: right;
+  margin-right: 5%;
 }
 
 .ul-item-typology a {
