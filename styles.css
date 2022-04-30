@@ -110,3 +110,66 @@ nav ul {
 .product-card {
   cursor: pointer;
 }
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 450px;
+  gap: 30px;
+}
+
+#newsletterSuscribeText {
+  font-size: 35px;
+}
+
+.newsletterNumber {
+  color: lightgreen;
+  font-weight: bold;
+}
+
+#emailAddress {
+  text-align: center;
+  width: 400px;
+  border: none;
+  border-bottom:1px solid black;
+  
+}
+
+.footerPrincipalContainer {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  padding: 30px;
+  font-size: 0.90rem
+}
+
+.footerPrincipalContainer ul {
+  list-style: none;
+}
+
+.footerPrincipalContainer a {
+  text-decoration: none;
+  color: black;
+}
+
+.brands {
+  width: 15px;
+  height: 15px;
+}
+
+.app-container ul{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 0.90rem;
+  text-align: center;
+  list-style: none;
+}
+
+.app-container a {
+  color: #000;
+  text-decoration: none;
+}
